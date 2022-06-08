@@ -1,0 +1,109 @@
+.header {
+    display:flex;
+    justify-content: space-around;
+align-items: center;
+padding: 40px 20px;
+max-width: 1200px;
+margin: 0 auto;
+background: url(/img/retangulo\ menu.svg) no-repeat center center;
+
+/* right: 300px;
+    width: 1201px;
+
+z-index: -1;
+*/
+
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 1.125rem;
+    line-height: 1.3;
+    display: block;
+}
+
+
+
+.header h1{
+    color: white;
+    font-family: 'poppins';
+}
+
+.header span {
+    color: #2ADAF2
+}
+
+
+@media (min-width:830px) and (max-width: 1000px) {
+.header {
+   flex-direction: column;
+   gap: 20px;
+   background: none;
+   padding: 20px;
+}
+
+.header a {
+    background: #3C3C3C;
+    border-radius: 4px;
+}
+
+.header-menu {
+    gap: 20px;
+}
+.header-menu a:hover {
+    background: linear-gradient(#2ADAF2, #16b8ce);
+    color: black;
+}
+}
+
+@media (max-width:850px) {
+    .header {
+        flex-direction: column;
+        gap: 20px;
+        background: none;
+        padding: 20px;
+    }
+
+    .header-menu {
+        gap: 20px;
+    }
+
+    .header a {
+        background: #3C3C3C;
+        border-radius: 4px;
+    }
+}
+
+@media (max-width:700px) {
+    
+}
+
+
+/* .header::before {
+    content: "";
+    width: 1201px;
+height: 60px;
+left: 150px;
+top: 35px;
+position: absolute;
+background: url(/img/retangulo\ menu.svg) no-repeat center;
+display: flex;
+justify-content: center;
+z-index: -1;
+} */
+
+.header-menu a:hover {
+    color: #2ADAF2;
+    
+}
+
+

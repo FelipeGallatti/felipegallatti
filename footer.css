@@ -1,0 +1,43 @@
+.footer {
+    background-color: #0E0E0E;
+    color: white;
+}
+
+.footer-container {
+    max-width: 1200px;
+padding: 120px 20px 60px 20px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 100px;
+align-items: center;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    line-height: 1.35;
+    margin-left: 20px;
+    max-width: 45ch;
+    font-family: 'poppins';
+}
+
+.footer-container li {
+    font-size: 1.5rem;
+    line-height: 1.40;
+    text-align: center;
+    font-family: 'poppins';
+    margin-bottom: 10px;
+}
+
+.footer-container a {
+    color: #1C9CE4;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-copy  {
+    font-size: 1.25rem;
+    color: #a0a0a0;
+    grid-column: 1 / -1;
+    text-align: center;
+}
