@@ -92,7 +92,12 @@ z-index: -1;
         font-size: 0.7rem;
         text-transform: uppercase;
     }
+
+    .introducao .localidade {
+        font-size: 1rem;
+    }
 }
+
 
 
 /* .header::before {

@@ -1,5 +1,5 @@
 body {
-    margin: 0 50px;
+    margin: 0px;
     font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
     background: rgb(0, 0, 0);
 
@@ -30,9 +30,7 @@ img {
 display: none;
 }
 
-body {
-    margin: 0px;
-}
+
 }
 
 
