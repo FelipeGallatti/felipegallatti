@@ -30,7 +30,7 @@
     line-height: 1.4;
 }
 
-.subtitulo { 
+.formacao .subtitulo { 
     writing-mode: vertical-rl;
     font-size: 6rem;
     text-transform: uppercase;
