@@ -183,6 +183,11 @@ width: 24px;
         gap: 20px;
     }
 
+    .formacao-extra h3::before {
+        content: "";
+        display: none;
+    }
+
     .formacao .subtitulo {
         font-size: 4rem;
         writing-mode: horizontal-tb;
@@ -192,11 +197,12 @@ width: 24px;
 }
 @media (max-width: 600px) {
     .formacao .subtitulo {
-        font-size: 2.5rem;
-    }
-
-    .formacao-texto {
-        font-size: 1.3rem;
+        font-size: 3rem;
     }
     
+}
+
+@media (max-width: 500px){
+  .formacao .subtitulo { font-size: 2.5rem;
+}
 }

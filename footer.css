@@ -75,6 +75,7 @@ align-items: center;
         border-radius: 4px;
         text-transform: initial;
 margin-bottom: 20px;
+font-size: 1.2rem;
     }
     .footer-container {
         gap: 40px;
@@ -83,7 +84,7 @@ margin-bottom: 20px;
     .footer .subtitulo {
         font-size: 2.5rem;
         text-transform: uppercase;
-        color: #1a1a1a;
+        color: #151515;
     text-align: center;
     font-family: 'poppins';
     margin-top: 40px;
@@ -99,4 +100,10 @@ margin-bottom: 20px;
     }
 
 
+}
+
+@media (max-width: 750px) {
+.footer-copy {
+    margin-bottom: 40px;
+}
 }
