@@ -14,7 +14,7 @@ align-items: center;
 }
 
 .footer-texto {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     line-height: 1.35;
    margin-left: 20px; 
     max-width: 45ch;
@@ -22,7 +22,7 @@ align-items: center;
 }
 
 .footer-container li {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     line-height: 1.40;
     text-align: center;
     font-family: 'poppins';
@@ -42,16 +42,54 @@ align-items: center;
     text-align: center;
 }
 
+li .botao-linkedin {
+    background: linear-gradient(#2ADAF2, #1C9CE4);
+    color: black;
+    padding: 5px 10px;
+    display: block;
+    border-radius: 4px;
+   font-size: 1.5rem;
+}
+
+li .botao-linkedin:hover {
+    color: aliceblue;
+    
+}
+
+@media (max-width:1100px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        padding:0px;
+        gap:30px;
+    }
+    .footer-container li {
+        font-size: 1.8rem;
+    }
+
+    .footer-texto {
+        font-size: 1.8rem;
+        line-height: 1.35;
+        max-width: 46ch;
+    justify-self: center;
+        margin-top: 50px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .footer-copy {
+        margin-bottom: 40px;
+    }
+}
+
 @media (max-width:750px) {
     .footer-container {
         grid-template-columns: 1fr;
         padding:0px;
-        gap:50px;
+        gap:30px;
    
     }
 
     .footer-texto {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         line-height: 1.35;
         max-width: 46ch;
     justify-self: center;
@@ -63,20 +101,13 @@ align-items: center;
 
 @media (max-width: 600px) {
     .footer-texto {
+        font-size: 1.4rem;
         text-align: start;
         margin-left: 20px;
+        max-width: 39ch;
+        color: aliceblue;
     }
 
-    .footer-container a {
-        background: linear-gradient(#2AC2F2, #1C9CE4);
-        color: #000000;
-        padding: 10px 20px;
-        display: inline-block;
-        border-radius: 4px;
-        text-transform: initial;
-margin-bottom: 20px;
-font-size: 1.2rem;
-    }
     .footer-container {
         gap: 40px;
     }
@@ -90,13 +121,15 @@ font-size: 1.2rem;
     margin-top: 40px;
     margin-bottom: -40px;
     }
+    .footer-container li {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 500px) {
     .footer-texto {
         text-align: start;
-        margin-left: 20px;
-        font-size: 1.35rem;
+        font-size: 1.2rem;
     }
 
 

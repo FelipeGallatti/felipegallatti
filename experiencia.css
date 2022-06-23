@@ -112,8 +112,14 @@ color: #3c3c3c;
     line-height: 1.4;
     padding: 5px 10px;
     border-radius: 4px;
+    border: transparent solid 1px;
 }
-
+.empresa-habilidades li:hover {
+    background: linear-gradient(#2ADAF2, #1C9CE4);
+    color: aliceblue;
+    border: #1b9be4 solid 0.1px;
+    
+}
 @media (max-width:950px) {
 
     .experiencia-container{

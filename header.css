@@ -59,10 +59,7 @@ z-index: -1;
 .header-menu {
     gap: 20px;
 }
-.header-menu a:hover {
-    background: linear-gradient(#2ADAF2, #16b8ce);
-    color: black;
-}
+
 }
 
 @media (max-width:850px) {
