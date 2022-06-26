@@ -38,7 +38,6 @@ align-items: center;
 .footer-copy  {
     font-size: 1.25rem;
     color: #a0a0a0;
-    grid-column: 1 / -1;
     text-align: center;
 }
 
@@ -128,11 +127,17 @@ li .botao-linkedin:hover {
 
 @media (max-width: 500px) {
     .footer-texto {
-        text-align: start;
-        font-size: 1.2rem;
+        text-align: center;
+        font-size: 1.5rem;
     }
 
+    li .botao-linkedin {
+        font-size: 1rem;
+    }
 
+    .footer-container .email{
+    font-size: 1.3rem;
+}
 }
 
 @media (max-width: 750px) {
