@@ -49,6 +49,11 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+}
+
+.redes p {
+    text-align: center;
 }
 
 .email {
