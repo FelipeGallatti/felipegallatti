@@ -45,25 +45,20 @@ align-items: center;
     padding: 20px;
 }
 
+.redes ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .email {
     font-size: 2rem;
     font-family: 'poppins';
     text-align: center;
 }
 
-li .botao-linkedin {
-    background: linear-gradient(#2ADAF2, #1C9CE4);
-    color: black;
-    padding: 5px 10px;
-    display: block;
-    border-radius: 4px;
-   font-size: 1.5rem;
-}
 
-li .botao-linkedin:hover {
-    color: aliceblue;
-    
-}
+
 
 @media (max-width:1100px) {
     .footer-container {
@@ -114,6 +109,7 @@ li .botao-linkedin:hover {
 
 @media (max-width: 600px) {
 
+
 .email {
     font-size: 1.5rem;
     text-align: center;
@@ -146,33 +142,7 @@ li .botao-linkedin:hover {
         font-size: 1.5rem;
     }
 
-    .footer-container ul {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
 
-    li .botao-linkedin {
-        display: block;            
-        width: 35px;
-        height: 35px;
-        background-size: 100% 100%; /* ou 'contain' */
-        background-image: url("./img/linkedin.svg");
-        background-repeat: no-repeat;
-        background-position: center;
-      font-size: 0%;
-    }
-
-    li .botao-github {
-        display: block;            
-        width: 80px;
-        height: 80px;
-        background-image: url("./img/github.svg");
-        background-repeat: no-repeat;
-        background-position: center;
-      font-size: 0%;
-    }
 
     
 }
