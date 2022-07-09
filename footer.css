@@ -8,21 +8,22 @@
 }
 .footer-container {
     max-width: 1200px;
-padding: 120px 20px 60px 20px;
+padding: 20px;
 margin: 0 auto;
 display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 100px;
+grid-template-columns: 1fr;
+gap: 40px;
 align-items: center;
 }
 
-.footer-texto {
-    font-size: 2.2rem;
-    line-height: 1.35;
-   margin-left: 20px; 
-    max-width: 45ch;
+.footer-container p {
+    font-size: 2rem;
     font-family: 'poppins';
+    text-align: center;
+    margin-top: 50px;
+    
 }
+
 
 .footer-container li {
     font-size: 2.2rem;
@@ -45,6 +46,18 @@ align-items: center;
     padding: 20px;
 }
 
+
+.redes{
+    margin-top: -50px;
+    display: grid;
+    gap: 5px;
+}
+
+.redes p{
+    margin-bottom: 5px;
+    font-family: 'poppins';
+}
+
 .redes ul {
     display: flex;
     align-items: center;
@@ -52,48 +65,31 @@ align-items: center;
     gap: 10px;
 }
 
-.redes p {
-    text-align: center;
-}
 
-.email {
-    font-size: 2rem;
-    font-family: 'poppins';
-    text-align: center;
-}
+
 
 
 @media (max-width:1100px) {
     .footer-container {
         grid-template-columns: 1fr;
         padding:0px;
-        gap:30px;
+        gap:40px;
     }
     .footer-container li {
         font-size: 1.8rem;
     }
 
-    .footer-texto {
-        font-size: 1.8rem;
-        line-height: 1.35;
-        max-width: 46ch;
-    justify-self: center;
-        margin-top: 50px;
-        text-align: center;
-        margin-left: 0;
+    .footer-container .footer-texto {
+        font-size: 1.7rem;
     }
     .footer-copy {
         margin-bottom: 40px;
     }
 }
 
-@media (max-width:750px) {
-    .footer-container {
-        grid-template-columns: 1fr;
-        padding:0px;
-        gap:30px;
-   
-    }
+.redes p {
+    font-size: 1rem;
+}
 
     .footer-texto {
         font-size: 1.6rem;
@@ -108,28 +104,17 @@ align-items: center;
     .email {
         font-size: 1.5rem;
     }
-}
+
 
 @media (max-width: 600px) {
 
-
-.email {
-    font-size: 1.5rem;
-    text-align: center;
-    font-family: 'poppins';
-    
+.footer-container .footer-texto {
+font-size: 1.5rem;
+margin-top: 70px;
 }
 
-    .footer-texto {
-        font-size: 1.4rem;
-        text-align: start;
-        margin-left: 20px;
-        max-width: 39ch;
-        color: aliceblue;
-    }
-
     .footer-container {
-        gap: 20px;
+        gap: 40px;
     }
 
     .footer .subtitulo {
@@ -151,9 +136,9 @@ align-items: center;
 }
 
 @media (max-width: 500px) {
-    .footer-texto {
+    .footer-container .footer-texto {
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
 
