@@ -92,12 +92,26 @@ top: 18.7px;
     font-weight: bold;
 }
 
+
+
 .empresa-texto {
     font-size: 0.875rem;
 line-height: 1.4;
 color: #3c3c3c;
 }
 
+.empresa a {
+font-size: 0.9rem;
+text-decoration: none;
+display: flex;
+flex-wrap: wrap;
+color:#0c3a96;
+justify-content: start;
+margin-left: 1px;
+
+
+
+}
 .empresa-habilidades {
     display: flex;
     flex-wrap: wrap;
@@ -107,7 +121,7 @@ color: #3c3c3c;
 
 
 .empresa-habilidades li {
-    font-size: .875rem;
+    font-size: .8rem;
     background: #ffff;
     line-height: 1.4;
     padding: 5px 10px;
@@ -156,24 +170,63 @@ display: block;
         margin-top: -10px;
     }
 
-    .empresa-titulo {
-        display: none;
-    }
-
-
-
+   
     .empresa-texto {
     font-size: 13px;
     }
 
     .empresa {
-        display: flex;
-        flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr;
     }
 
- .empresa-titulo {
-    display: block;
+    .empresa-titulo1::after{
+        content: "Projeto | Desenvolvedor";
+        position: absolute;
+        right: 25px;
+        font-size: 0.8rem;
+        color: #2c2c2c;
+        font-family: 'roboto';
+        font-weight: normal;
+    }
+
+    .empresa-titulo2::after{
+        content: "Projeto | Instagram";
+        position: absolute;
+        right: 25px;
+        font-size: 0.8rem;
+        font-family: 'roboto';
+        font-weight: normal;
+        color: #2c2c2c;
+    }
+
+    .empresa-titulo3::after{
+        content: "Dados | Conferente";
+        position: absolute;
+        right: 25px;
+        font-size: 0.8rem;
+        color: #3c3c3c;
+        font-family: 'roboto';
+        font-weight: normal;
+    }
+
+    .empresa-habilidades {
+        justify-content: center;
+    }
+
+    .empresa span {
+        display: none;
+    }
+
+ .empresa a {
+    justify-content: center;
+    background: black;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 4px;
+    text-transform: uppercase;
  }
+
 }
 
 .formacao-container .subtitulo {
@@ -181,9 +234,8 @@ display: block;
     display: block;
 }
 
-.teste {
-    background: #dadada
-}
+
+
 
 /* .teste {
     background-color: #c9c8c8;
