@@ -55,6 +55,16 @@ left: 211px;
 top: 17.7px;
 }
 
+.experiencia-container .projeto-::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 34px;
+    background: linear-gradient(#2ADAF2,#1C9CE4);
+    left: 0px;
+    top: 17.7px;
+    }
 
 
 .experiencia-container strong {
