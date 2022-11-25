@@ -28,6 +28,7 @@ align-items: center;
     margin-bottom: 60px;
     max-width: 45ch;
     color: #3c3c3c;
+    font-family: 'roboto';
 }
 
 .experiencia-container h2 {
@@ -40,6 +41,9 @@ align-items: center;
 .experiencia-container .projetos {
     position: relative;
 }
+
+
+
 .experiencia-container .projetos::before {
 content: "";
 display: block;
@@ -47,9 +51,11 @@ position: absolute;
 width: 4px;
 height: 34px;
 background: linear-gradient(#2ADAF2,#1C9CE4);
-left: -01px;
-top: 18.7px;
+left: 211px;
+top: 17.7px;
 }
+
+
 
 .experiencia-container strong {
     color: black;
@@ -64,6 +70,11 @@ top: 18.7px;
     margin-bottom: 20px;
     border-radius: 4px;
     position: relative;
+}
+
+.Lexmark {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .empresa::before {
@@ -90,6 +101,7 @@ top: 18.7px;
     font-size: 1.125rem;
     line-height: 1.1;
     font-weight: bold;
+    font-family: 'poppins';
 }
 
 
@@ -98,6 +110,10 @@ top: 18.7px;
     font-size: 0.875rem;
 line-height: 1.4;
 color: #3c3c3c;
+}
+
+.Lexmark {
+    text-align:center;
 }
 
 .empresa a {
@@ -117,6 +133,10 @@ margin-left: 1px;
     flex-wrap: wrap;
     gap: 10px;
     align-content: start;
+}
+
+.Lexmark {
+    justify-content: center;
 }
 
 
@@ -152,6 +172,24 @@ display: none;
     color: #2ADAF2
     }
 
+    .experiencia-container .projetos::before {
+        content: "";
+        display: block;
+        width: 4px;
+        height: 34px;
+        background: linear-gradient(#2ADAF2,#1C9CE4);
+        left: 32px;
+        top: 18px;
+        }
+        .experiencia-container .projeto-::before {
+            content: "";
+            display: block;
+            width: 4px;
+            height: 34px;
+            background: linear-gradient(#2ADAF2,#1C9CE4);
+            left:0px;
+            top: 18px;
+            }
 }
 
 @media (max-width:500px) {
@@ -181,7 +219,7 @@ display: block;
     }
 
     .empresa-titulo1::after{
-        content: "Projeto | Desenvolvedor";
+        content: "Protótipo | Site";
         position: absolute;
         right: 25px;
         font-size: 0.8rem;
@@ -191,7 +229,7 @@ display: block;
     }
 
     .empresa-titulo2::after{
-        content: "Projeto | Instagram";
+        content: "Projeto | Landing Page";
         position: absolute;
         right: 25px;
         font-size: 0.8rem;
@@ -201,14 +239,16 @@ display: block;
     }
 
     .empresa-titulo3::after{
-        content: "Dados | Conferente";
+        content: "Projeto | Instagram";
         position: absolute;
         right: 25px;
         font-size: 0.8rem;
-        color: #3c3c3c;
         font-family: 'roboto';
         font-weight: normal;
+        color: #2c2c2c;
     }
+
+
 
     .empresa-habilidades {
         justify-content: center;
@@ -226,6 +266,15 @@ display: block;
     border-radius: 4px;
     text-transform: uppercase;
  }
+ .experiencia-container .projetos::before {
+    
+    display: none;
+    width: 4px;
+    height: 34px;
+    background: linear-gradient(#2ADAF2,#1C9CE4);
+    left: 32px;
+    top: 18px;
+    }
 
 }
 

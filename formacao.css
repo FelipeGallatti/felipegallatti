@@ -192,6 +192,12 @@ width: 24px;
     .formacao .subtitulo {
         font-size: 4rem;
         writing-mode: horizontal-tb;
+    
+    }
+
+    .formacao-texto {
+        max-width: 330px;
+    text-align:start;
     }
 
 

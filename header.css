@@ -27,6 +27,8 @@ z-index: -1;
     font-size: 1.125rem;
     line-height: 1.3;
     display: block;
+    border-bottom: transparent solid 2.5px;
+    
 }
 
 
@@ -109,8 +111,9 @@ z-index: -1;
 } */
 
 .header-menu a:hover {
-    color: #2ADAF2;
-    
+    border-bottom: #2ADAF2 solid 2.5px;
 }
+
+
 
 
