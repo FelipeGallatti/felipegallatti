@@ -221,6 +221,7 @@ display: block;
    
     .empresa-texto {
     font-size: 13px;
+    max-width: 400px;
     }
 
     .empresa {
