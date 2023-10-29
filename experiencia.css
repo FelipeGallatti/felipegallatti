@@ -25,9 +25,9 @@ align-items: center;
 .experiencia-texto {
     font-size: 1.5rem;
     line-height: 1.33;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     max-width: 45ch;
-    color: #3c3c3c;
+    color: #121212;
     font-family: 'roboto';
 }
 
@@ -120,6 +120,11 @@ top: 17.7px;
     font-size: 0.875rem;
 line-height: 1.4;
 color: #3c3c3c;
+}
+
+.descricao-lexmark{
+    text-align: left;
+    margin-left: 150px;
 }
 
 .Lexmark {
@@ -216,6 +221,11 @@ display: block;
         font-size: 1.3rem;
         margin-bottom: 20px;
         margin-top: -10px;
+    }
+
+    .descricao-lexmark{
+    text-align:center;
+    margin-left: 0px;
     }
 
    
