@@ -154,7 +154,14 @@ margin-left: 1px;
     justify-content: center;
 }
 
-
+.botao-projetos{
+    color: white;
+    text-decoration: none;
+    font-size: 0.7rem;
+    background-color: #0c3a96;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
 .empresa-habilidades li {
     font-size: .8rem;
     background: #ffff;
